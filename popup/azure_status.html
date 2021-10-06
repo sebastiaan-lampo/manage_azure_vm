@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+  <div id="form">
+      <input type="text" id="azure-plugin-url" class="azure-plugin-config" value="Enter webhook URL">
+      <input type="text" id="azure-plugin-rgn" class="azure-plugin-config" value="Enter resource group name">
+      <input type="text" id="azure-plugin-name" class="azure-plugin-config" value="Enter VM name">
+  </div>
+  <div>
+    <div class="button start">Start</div>
+    <div class="button stop">Stop</div>
+  </div>
+  <div>
+    <p id="azure-plugin-status">Status updates will come here.</p>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>

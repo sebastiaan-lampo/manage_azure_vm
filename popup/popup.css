@@ -1,0 +1,39 @@
+html, body {
+  width: 200px;
+}
+
+input {
+  margin: 3% auto;
+  padding: 2px;
+  /* text-align: center; */
+  /* font-size: 1.5em; */
+  /* cursor: pointer; */
+}
+
+.hidden {
+  display: none;
+}
+
+.button {
+  margin: 3% auto;
+  padding: 4px;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.start:hover {
+  background-color: #4cfd1f;
+}
+
+.start {
+  background-color: #c8fdba;
+}
+
+.stop:hover {
+  background-color: #fd8d24;
+}
+
+.stop {
+  background-color: #fbe1c9;
+}
