@@ -5,6 +5,7 @@
   "version": "1.0",
 
   "description": "Provides a convenient way to start or deallocate an azure VM using an automation runbook, webhook and this plugin.",
+  "homepage_url": "https://github.com/sebastiaan-lampo/manage_azure_vm",
   "icons": {
     "48": "icons/azure-48.png",
     "96": "icons/azure-96.png"
