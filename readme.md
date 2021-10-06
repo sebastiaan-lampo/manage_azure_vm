@@ -6,7 +6,7 @@ This plugin combines with an Azure automation runbook to enable users to start a
 
 ## Installation
 
-1. Create an Azure Automation Account with "Run As" enabled. [https://docs.microsoft.com/en-us/azure/automation/create-run-as-account](Azure Docs)
+1. Create an Azure Automation Account with "Run As" enabled. [Azure Docs](https://docs.microsoft.com/en-us/azure/automation/create-run-as-account)
 2. Create a new runbook in the automation account and copy the `runbook.ps1` code into it.
 3. Create a webhook for the runbook. Carefully note the URL as it will not be accessible later and is required for the plugin.
 4. Install the firefox plugin
